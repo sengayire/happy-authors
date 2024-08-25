@@ -10,3 +10,6 @@ Route::get('/', function() {
     return 'API';
 });
 
+Route::get('/users', function() {
+    return [];
+});
